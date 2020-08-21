@@ -5,7 +5,7 @@ Landing Page para el Podcast "Nada Bajo Control"
 realista. Aquí no creemos en las recetas mágicas ni en discursos, si no en el trabajo hecho. Tampoco creemos en planes
 rígidos, sino que a veces no tenemos todo bajo control, y eso está bien.
 
-Este es el código de la página principal del podcast
+Este es el código de la página principal del podcast, hecho con Angular 9 y Bootstrap 4
 
 ## Instrucciones
 
@@ -13,20 +13,14 @@ Primero instale las dependencias:
 ```bash
 npm install
 ```
-
-Luego puede construir una versión de desarrollo del sitio:
-```bash
-npm run build
-```
-
-También puede lanzar un servidor local con "live reload" que se actualiza
+Puede lanzar un servidor local con "live reload" que se actualiza
 cada vez que hace cambios:
 ```bash
-npm run serve
+ng serve --open
 ```
 
 Finalmente, para construir el sitio para producción (con optimizaciones),
 utilice el siguiente comandoÑ
 ```bash
-npm run production
+ng build --prod
 ```

@@ -1,0 +1,17 @@
+.cover-heading {
+  margin-top: 3em;
+}
+
+.home-card {
+  background-image: url(../../assets/img/paper.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  margin-top: 3em;
+  margin-bottom: 1em;
+  padding: 2em;
+}

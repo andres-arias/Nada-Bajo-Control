@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Pokemon'; /*a name to be used later*/
+  src: url(assets/pokemon_font.ttf); /*URL to font*/
+}
+
+body {
+  height: 100%;
+  background-image: url(assets/img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #a6ba65;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-family: 'Pokemon';
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}

@@ -5,6 +5,17 @@
 </div>
 <div class="row">
   <div class="col home-card">
+    <div class="btn-group">
+      <button onclick="window.open('https://open.spotify.com/show/0VneqAWAFAwKOPRjyO6aQF', '_blank')"
+        class="btn btn-lg btn-secondary"><i class="fab fa-spotify"
+        target="_blank"></i> Spotify</button>
+        
+      <button onclick="window.open('https://podcasts.apple.com/cr/podcast/nada-bajo-control/id1528272466', '_blank')"
+        class="btn btn-lg btn-secondary"
+        target="_blank"><i class="fab fa-apple"></i> iTunes</button>
+    </div>
+    <p class="lead">
+    </p>
     <p class="lead">
       Un informático, un sociólogo y un comunicador se sientan a hablar y se dan cuenta que nada está bajo control.
     </p>
@@ -14,24 +25,7 @@
       rígidos, sino que a veces no tenemos todo bajo control, y eso está bien.
     </p>
     
-    <h2>Escuchar</h2>
-    <p class="lead">
-      <button onclick="window.open('https://open.spotify.com/show/0VneqAWAFAwKOPRjyO6aQF', '_blank')"
-        class="btn btn-lg btn-secondary mr-2"><i class="fab fa-spotify"
-        target="_blank"></i> Spotify</button>
-        
-      <button onclick="window.open('https://podcasts.apple.com/cr/podcast/nada-bajo-control/id1528272466', '_blank')"
-        class="btn btn-lg btn-secondary mr-2"
-        target="_blank"><i class="fab fa-apple"></i> iTunes</button>
-
-      <button onclick="window.open('https://overcast.fm/itunes1528272466/nada-bajo-control', '_blank')"
-        class="btn btn-lg btn-secondary"
-        target="_blank"><i class="fas fa-podcast"></i> Overcast</button>
-    </p>
-    
-    <div *ngIf="!isMobile">
-      <h2>Último episodio</h2>
-      <iframe src="https://anchor.fm/nada-bajo-control/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-    </div>
+    <h2>Último episodio</h2>
+    <iframe src="https://open.spotify.com/embed-podcast/show/0VneqAWAFAwKOPRjyO6aQF" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
 </div>
